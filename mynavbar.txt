@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light ">
+            <div class="container-fluid">
+            <Link to={{pathname:"/logo"}} ><img className="navbar-brand" src='./images/Cartel-Logo.png'/></Link>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <Link to={{pathname:"/home"}} class="nav-link active" aria-current="page" href="#">Home</Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to={{pathname:"/citrix"}} class="nav-link" href="#">
+                            Citrix
+                            </Link>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <Link to={{pathname:"/course"}} class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Courses
+                            </Link>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><Link to={{pathname:"/cisco"}} class="dropdown-item" href="#">Cisco</Link></li>
+                                <li><Link to={{pathname:"/=microsoft"}} class="dropdown-item" href="#">Microsoft</Link></li>
+                                <li><Link to={{pathname:"/oracle"}} class="dropdown-item" href="#">Oracle</Link></li>
+                                <li><Link to={{pathname:"/vmare"}} class="dropdown-item" href="#">VMware</Link></li>
+                                <li><Link to={{pathname:"/security"}} class="dropdown-item" href="#">Security</Link></li>
+                                <li><Link to={{pathname:"/unix"}} class="dropdown-item" href="#">UNIX administration</Link></li>
+                                <li><Link to={{pathname:"/others"}} class="dropdown-item" href="#">Other Texhnologies</Link></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <Link to={{pathname:"/training"}} class="nav-link" href="#">
+                            Training Methodology
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to={{pathname:"/videos"}} class="nav-link" href="#">
+                            Training videos
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to={{pathname:"/client"}} class="nav-link" href="#">
+                            Our Clients
+                            </Link>
+                        </li>
+                        <li class="nav-item">
+                            <Link to={{pathname:"/contact"}} class="nav-link" href="#">
+                            Contact Us
+                            </Link>
+                        </li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </nav>

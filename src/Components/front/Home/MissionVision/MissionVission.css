@@ -1,0 +1,125 @@
+.democss{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.bluecss{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bluecss img{
+    padding: 0 104px;
+    margin: 55px 0;
+}
+.redcss{
+    width: 50%;
+    height: 100%;
+    padding: 150px;
+    background-color: #3c565b;
+}
+.redcss h1{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #C3C300;
+    text-align: center;
+}
+.redcss p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: black;
+    color: #fffff7b2;
+    display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+  justify-items: center;
+}
+.demo2css{
+    display: flex;
+    width: 100%;
+    height:100%
+}
+.visionimagecss{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.visionimagecss img{
+    padding: 0 104px;
+    margin: 55px 0;
+}
+.visioncontentcss{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+    padding: 150px;
+    display: grid;
+    background-color: #3c565b;
+}
+.visioncontentcss h1{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #C3C300;
+    text-align: center;
+}
+.visioncontentcss p{
+    font-size: 15px;
+    font-weight: 400px;
+    color: #fffff7b2;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:767px){
+    .democss{
+        display: flex;
+        width: 100%;
+        height:fit-content;
+        flex-direction: column;
+    }
+    .bluecss{
+        width: 100%;
+        height: 100%;
+        order: 1;
+    }
+    .bluecss img{
+        padding: 0 0px;
+    }
+    .redcss{
+        width: 100%;
+        height: 100%;
+        order: 2;
+        padding: 78px;
+    }
+    .demo2css{
+        position: relative;
+        display: flex;
+        width: 100%;
+        height:fit-content;
+        flex-direction: column;
+    }
+    .visionimagecss{
+        
+        bottom: 10%;
+        order: 1;
+        width: 100%;
+        height: 100%;
+    }
+    .visionimagecss img{
+        padding: 0 0px;
+    }
+    .visioncontentcss{
+        padding: 78px;
+        width: 100%;
+        height: 100%;
+        order: 2;
+    }
+}

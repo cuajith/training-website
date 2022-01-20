@@ -1,0 +1,48 @@
+Navbar{
+    position: sticky;
+    top: 0;
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 80px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+.container-fluid img{
+    width: 200px;
+}
+.navbar-collapse{
+    padding-left: 60px;
+}
+.navbar-brand{
+    text-decoration: none;
+    text-transform: lowercase;
+    font-style: oblique;
+    font-size: 40px;
+    width: 300px;
+}
+.navbar-toggler{
+    color:#6FA8DC !important ;
+}
+.nav-item{
+    display: flex;
+}
+.nav-item a{
+    list-style: none;
+    display: inline-block;
+    font-size: 15px;
+}
+.nav-item a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.637);
+    padding: 5px px;
+}
+.nav-item a:hover{
+    color: #6FA8DC !important;
+}
+#navbarDropdown{
+    display: block;
+}

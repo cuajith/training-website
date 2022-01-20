@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cisco-top-links{
+    margin: 0 40px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    padding: 30px;
+}
+.cisco-top-links a{
+    text-decoration: none;
+}
+.Cisco-image{
+    width: 300px;
+    height: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-body  p{
+    text-align: center;
+    padding: 0 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width:767px){
+    .content-body p{
+        text-align: center;
+        padding: 0 10px;
+        font-size: 13px;
+    }
+    .cisco-top-links{
+        margin: 0 0px;
+    }
+    .Cisco-image{
+        width: 50%;
+        height: 100%;
+    }
+}

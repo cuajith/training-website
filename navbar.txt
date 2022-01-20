@@ -1,0 +1,29 @@
+<Navbar className="navbar-brand" expand="lg">
+                <Navbar.Brand href="/" className="logo">
+                    <img className="img1" src="./images/Cartel-Logo.png" alt="Cartel Network logo" />
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Navbar.Collapse id="basic-navbar-nav">
+                    <div className="areaspace"></div>
+                    <Nav className="nav">
+                        <Nav.Link to={{ pathname: "/" }} className="scroll-to-section" href="/">Home</Nav.Link>
+                        <Nav.Link to={{ pathname: "/citrix" }} className="scroll-to-section" href="/">Citrix</Nav.Link>
+
+                        <NavDropdown to={{ pathname: "/course" }} className="scroll-to-section" title="Courses" > 
+                            <NavDropdown.Item className="li2" href="/bpo" > Cisco</NavDropdown.Item>
+                            <NavDropdown.Item className="li2" href="/backoffice" >Microsoft</NavDropdown.Item>
+                            <NavDropdown.Item className="li2" href="/callcenter" >Oracle</NavDropdown.Item>
+                            <NavDropdown.Item className="li2" href="/callcenter" >VMware</NavDropdown.Item>
+                            <NavDropdown.Item className="li2" href="/callcenter" >UNIX administratio</NavDropdown.Item>
+                            <NavDropdown.Item className="li2" href="/callcenter" >Other Texhnologies</NavDropdown.Item>
+                        </NavDropdown>
+                        
+                        <Nav.Link className="scroll-to-section" href="#about" > Training Methodology</Nav.Link>
+                        
+                        <Nav.Link className="scroll-to-section" href="#contact" >Training videos</Nav.Link >
+                        <Nav.Link className="scroll-to-section" href="#contact" >Our Clients</Nav.Link >
+                        <Nav.Link className="scroll-to-section" href="#contact" >Contact us</Nav.Link >
+                    </Nav>
+                </Navbar.Collapse>
+            </Navbar>
+            

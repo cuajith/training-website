@@ -1,0 +1,30 @@
+.container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+}
+.row{
+    width: 100%;
+    height: auto;
+}
+.container h1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 40px;
+    font-weight: bold;
+}
+.col-5{
+    margin-left: 100px ;
+}
+.vision-image,.mission-image{
+    margin: 20px 30px;
+    text-align: center;
+}
+.vision, .Mission{
+    margin: 40px 80px;
+    text-align: center;
+}

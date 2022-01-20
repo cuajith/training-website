@@ -1,0 +1,83 @@
+.s-heading
+{
+color: cornflowerblue;
+padding: 20px 0;
+text-align: center;
+}
+.faqtabs {
+    overflow: hidden;
+    margin: 10px;
+  }
+  
+  .faqtab {
+    width: 100%;
+    background: #dbdeff;
+    color: rgb(0, 0, 0);
+    overflow: hidden;
+  }
+  .faqtab img{
+    width: 100%;
+  }
+  .faqtab p{
+    color:#fff;
+    font-size: 14px;
+    text-align: left;
+  }
+  .faqtab-label {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    color: #000000;
+    font-weight: bold;
+    cursor: pointer;
+    /* Icon */
+  }
+  .faqtab-label:hover {
+    color: rgb(0, 51, 255);
+  }
+  .faqtab-label::after {
+    content: "❯";
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    transition: all 0.35s;
+  }
+  .faqtab-content {
+    max-height: 0;
+    display: grid;
+    color: #ffffff;
+    transition: all 0.35s;
+    padding-left: 1em;
+  }
+  .faqtab-content p{
+    font-size: 14px;
+    padding-top: 5px;
+    background: #f0f1ff;
+    color: rgb(0, 0, 0);
+  }
+  .faqtab-list{
+    color: rgba(0, 0, 0, 0.788);
+    text-align: left;
+  }
+  .faqtab-list ul li{
+    padding-left: 20px;
+  }
+  .faqtab-list li{
+    text-align: left;
+  }
+  .faqtab-content i{
+    margin-right: 10px;
+  }
+  input:checked + .faqtab-label {
+    background: #1a252f00;
+  }
+  input:checked + .faqtab-label::after {
+    transform: rotate(90deg);
+    opacity: 0;
+  }
+  input:checked ~ .faqtab-content {
+    max-height: 100%;
+  }

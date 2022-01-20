@@ -1,0 +1,39 @@
+.slider{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-inner img{
+    width: 100%;
+    height: 700px
+}
+.images input{
+    display: none;
+}
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #fff 3px;
+    cursor: pointer;
+    margin: 5px;
+}
+.dots label:hover{
+    background: #fff;
+}
+@media (max-width:767px){
+    .carousel-inner img{
+        width: 100%;
+        height: 450px;
+    }
+}
+
